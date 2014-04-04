@@ -5,9 +5,9 @@ $(document).ready(function() {
 		var colors = ["red", "blue", "green", "yellow", "gray"];
 		var answer = "";
 		
-		// for (var i = 0; ?; i++) {
-		// 	answer = answer + " " + ?;
-		// }
+		for (var i = 0; i<colors.length; i++) {
+		answer = answer + " " + colors[i];
+		 } 
 
 		$('#answer1').text(answer);
 
@@ -19,6 +19,9 @@ $(document).ready(function() {
 		var answer = "";
 
 		// Add code here
+		for (var i = 0; i<names.length; i++) {
+		answer = answer + " " + names[i];
+		 } 
 
 		$('#answer2').text(answer);
 
@@ -30,6 +33,11 @@ $(document).ready(function() {
 		var answer = "";
 
 		// Add code here
+		for (var i = 0; i<numbers.length; i++) {
+		    if(numbers[i] == 40 || numbers[i] == 80 || numbers[i] == 120){
+		    answer = answer + " " + numbers[i];
+		 } 
+		}
 
 		$('#answer3').text(answer)
 
@@ -40,6 +48,9 @@ $(document).ready(function() {
 		var answer = "";
 
 		// Add code here
+		for (var i = 0; i<10; i++){
+		    answer = answer + " " + "BK ALL DAY!";
+		}
 
 		$('#answer4').text(answer)
 
