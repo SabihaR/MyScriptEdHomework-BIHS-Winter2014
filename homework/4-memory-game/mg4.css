@@ -1,0 +1,55 @@
+
+h1
+{
+    text-align: center;
+    color: #568AE2;
+    text-shadow: 5px 5px 5px #A6A600;
+}
+
+h4
+{
+    text-align: center;
+}
+
+.box
+{
+    background-color: #87B8F3;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #568AE2;
+    cursor: pointer;
+}
+
+#reset
+{
+    margin: 0 auto; /* centers, provided there's a width set */
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #696940;
+    background-color: #85B8ED;
+    height: 40px;
+    width: 100px;
+    padding: .5em;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img
+{
+    height: 146px;
+    width: 146px;
+}
+
+#msg
+{
+    display: block;
+    text-align: center;
+}
