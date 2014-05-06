@@ -47,7 +47,7 @@ $(document).ready(function(){
             
             if(trueCheck == 16){
                 $('#toggle').animate({opacity:'0.4'},"slow");
-                $('body').prepend("<div id='msg'>Game Over!</div>");
+                $('#p').html("<div id='msg'>Game Over!</div>");
                 $('#msg').animate({fontSize:'8em'},"slow");
                 }
             else
@@ -59,6 +59,7 @@ $(document).ready(function(){
         $('#score').text("Score: 0");
         $('#toggle').animate({opacity:'initial'},"fast");
         $('#msg').remove();
+        trueCheck = 0;
     });
     });
     

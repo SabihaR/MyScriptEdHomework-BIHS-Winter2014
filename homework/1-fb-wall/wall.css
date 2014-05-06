@@ -1,8 +1,88 @@
 #wall
 {
-  border: 1px solid black;
+  border: 1px solid #CEC3B4;
   height:400px;
-  width: 800px;
-  margin: 0px auto;
+  width: 550px;
   overflow: auto;
+  position: absolute; 
+  right: 20.4%; 
+  top: 50%;
 }
+
+#coverPic
+{
+    border: 1px solid #AD957D;
+    height:200px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#proPic
+{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #AD957D;
+    height:100px;
+    width: 100px;
+    position:absolute; 
+    left: 22%; 
+    top: 18%; 
+}
+
+#proName
+{
+    color: white;
+    position:absolute; 
+    left: 31%; 
+    top: 23%;
+}
+
+#postText
+{
+    border: 1px solid #CEC3B4;
+    position:absolute;
+    left: 38.7%;
+    top: 39%;
+    width: 550px;
+    height: 60px;
+}
+
+#button
+{
+    position: absolute; 
+    left: 74%;
+    top: 43.5%;
+    width: 70px;
+    height: 30px;
+    background-color: #425AA0;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #3333AD;
+    border-radius: 4px;
+}
+
+.like
+{
+   color: #425AA0; 
+   font-weight: bold;
+}
+
+.comment
+{
+    color: #425AA0; 
+    font-weight: bold;
+}
+
+#options
+{
+    border: 1px solid #CEC3B4;
+    height:240px;
+    width: 800.1px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: white;
+}
+

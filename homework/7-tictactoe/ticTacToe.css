@@ -1,9 +1,8 @@
-
 h1
 {
     text-align: center;
-    color: #568AE2;
-    text-shadow: 5px 5px 5px #A6A600;
+    color: black;
+    text-shadow: 5px 5px 5px #1778C7;
 }
 
 h4
@@ -13,14 +12,14 @@ h4
 
 .box
 {
-    background-color: #87B8F3;
+    background-color: #083B82;
     width: 100px;
     height: 100px;
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
     color: white;
     font-weight: bold;
-    text-shadow: 5px 5px 5px #568AE2;
+    text-shadow: 5px 5px 5px #1778C7;
     cursor: pointer;
 }
 
@@ -30,8 +29,8 @@ h4
     display: block;
     font-size: 15px;
     font-weight: bold;
-    color: #696940;
-    background-color: #85B8ED;
+    color: white;
+    background-color: #1778C7;
     height: 40px;
     width: 100px;
     padding: .5em;
@@ -42,10 +41,9 @@ h4
     cursor: pointer;
 }
 
-img
+#p
 {
-    height: 96px;
-    width: 96px;
+    text-align: center;
 }
 
 #msg
