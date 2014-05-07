@@ -1,9 +1,46 @@
 #body
 {
-  border: 1px solid black;
-  height:400px;
-  width: 800px;
-  margin: 0px auto;
-  overflow: auto;
+    height: 500px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    display: block;
+    overflow: auto;
 }
+
+p
+{
+    text-align: center;
+    font-weight: bold;
+    color: #865E20;
+    font-size: 20px;
+}
+
+#textBox
+{
+    border: 1px solid #AD957D;
+    position: absolute;
+    width: 550px;
+    height: 30px;
+    margin-left: 350px;
+    top: 10%;
+    display: block;
+    background-color: #FEFAF5;
+}
+
+#submit
+{
+    position: absolute; 
+    right: 350px;
+    top: 10%;
+    width: 70px;
+    height: 30px;
+    background-color: #C2AD5C;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    display: block;
+}
+
 
